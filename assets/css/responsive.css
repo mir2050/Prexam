@@ -1,0 +1,31 @@
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) { 
+  
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) { 
+  .navbar-brand { margin-right: 0.1rem; } 
+  .logo { width: 60%; } 
+  .content-left h1{ margin-top: 4rem; }
+  .trusted-by{ margin-top: 2rem; font-size: 1.3rem; padding: 15px 20px; }
+  .content-right{ margin-top: 7rem; }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+ 
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+  .content-left h1{ text-align: center; font-size: 2rem;}
+  .hero-sub-title{text-align: center; }
+  .trusted-by{ text-align: center!important; display: block; font-size: 1.3rem; }
+  .why-prexam{ margin-top: 3rem; }
+  .category-card{ width: 100%; margin-left: 8px;}
+  .category-card > div > div img{ width: 50%; }
+  .btn-later{margin-left: 0;}
+  .btn{padding: 0.375rem 0.72rem;}
+}
